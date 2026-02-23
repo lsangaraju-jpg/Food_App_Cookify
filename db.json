@@ -1,0 +1,94 @@
+{
+    "recipes": [
+      {
+        "id": 1001,
+        "title": "Pasta Alfredo (Mock)",
+        "image": "https://via.placeholder.com/312x231.png?text=Pasta+Alfredo"
+      },
+      {
+        "id": 1002,
+        "title": "Chicken Curry (Mock)",
+        "image": "https://via.placeholder.com/312x231.png?text=Chicken+Curry"
+      },
+      {
+        "id": 1003,
+        "title": "Veg Salad (Mock)",
+        "image": "https://via.placeholder.com/312x231.png?text=Veg+Salad"
+      }
+    ],
+    "recipeDetails": [
+      {
+        "id": 1001,
+        "title": "Pasta Alfredo (Mock)",
+        "image": "https://via.placeholder.com/636x393.png?text=Pasta+Alfredo",
+        "readyInMinutes": 25,
+        "vegetarian": true,
+        "vegan": false,
+        "servings": 2,
+        "pricePerServing": 250,
+        "extendedIngredients": [
+          { "id": "i1", "name": "Pasta", "image": "spaghetti.jpg" },
+          { "id": "i2", "name": "Cream", "image": "cream.jpg" },
+          { "id": "i3", "name": "Garlic", "image": "garlic.png" }
+        ],
+        "analyzedInstructions": [
+          {
+            "steps": [
+              { "number": 1, "step": "Boil water and cook pasta." },
+              { "number": 2, "step": "Prepare creamy garlic sauce." },
+              { "number": 3, "step": "Mix pasta with sauce and serve." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1002,
+        "title": "Chicken Curry (Mock)",
+        "image": "https://via.placeholder.com/636x393.png?text=Chicken+Curry",
+        "readyInMinutes": 40,
+        "vegetarian": false,
+        "vegan": false,
+        "servings": 4,
+        "pricePerServing": 350,
+        "extendedIngredients": [
+          { "id": "i1", "name": "Chicken", "image": "chicken-breasts.jpg" },
+          { "id": "i2", "name": "Onion", "image": "brown-onion.png" },
+          { "id": "i3", "name": "Curry Powder", "image": "curry-powder.png" }
+        ],
+        "analyzedInstructions": [
+          {
+            "steps": [
+              { "number": 1, "step": "Sauté onions and spices." },
+              { "number": 2, "step": "Add chicken and cook thoroughly." },
+              { "number": 3, "step": "Simmer until thick." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1003,
+        "title": "Veg Salad (Mock)",
+        "image": "https://via.placeholder.com/636x393.png?text=Veg+Salad",
+        "readyInMinutes": 10,
+        "vegetarian": true,
+        "vegan": true,
+        "servings": 2,
+        "pricePerServing": 150,
+        "extendedIngredients": [
+          { "id": "i1", "name": "Lettuce", "image": "iceberg-lettuce.jpg" },
+          { "id": "i2", "name": "Tomato", "image": "tomato.png" },
+          { "id": "i3", "name": "Cucumber", "image": "cucumber.jpg" }
+        ],
+        "analyzedInstructions": [
+          {
+            "steps": [
+              { "number": 1, "step": "Chop vegetables." },
+              { "number": 2, "step": "Mix in a bowl." },
+              { "number": 3, "step": "Add dressing and serve." }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

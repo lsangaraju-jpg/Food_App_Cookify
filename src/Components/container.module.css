@@ -1,0 +1,79 @@
+.title {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* Navbar */
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  background-color: #cf5432;
+  padding: 16px;
+}
+
+/* Brand group: title + gif */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Title styling */
+.title {
+  margin:0;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  letter-spacing: 1px;
+  display: flow-root;           /* important: ensures spans behave consistently */
+}
+
+/* Animated letters */
+.letter {
+  display: inline-flex;
+  opacity: 0;
+
+  animation-name: letterPop;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+  animation-iteration-count: initial;
+}
+
+@keyframes letterPop {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.9);
+  }
+
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Gif size */
+.pizza {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Main page layout */
+.parentContainer {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* Left + Right panels */
+.innerContainer {
+  flex: 1;
+  min-height: 80vh;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+}
