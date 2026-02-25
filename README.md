@@ -1,3 +1,101 @@
+# 🍽️ Cookify – Food Recipe Discovery Web Application
+
+Cookify is a modern food recipe discovery web application that allows users to search for recipes and view complete cooking details in an interactive and user-friendly interface. The application helps users explore recipes, understand ingredients, follow step-by-step cooking instructions, check preparation time, dietary preferences, and view the cost per serving - all without reloading the page.
+
+Cookify is built as a **Single Page Application (SPA)** using React and demonstrates real-world frontend development concepts such as API integration, component-based architecture, state management, and responsive UI design.
+
+---
+
+## 🚀 Features
+
+- Search recipes by food name
+- View detailed recipe information:
+  - Ingredients with images
+  - Cooking instructions
+  - Preparation time
+  - Vegetarian / Vegan / Non-Vegetarian classification
+  - Cost per serving
+- Smooth single-page experience without page reloads
+- Animated navigation bar with rotating food GIFs
+- Animated application title for branding
+- Graceful error handling for API limits and network issues
+- Clean and responsive user interface
+
+---
+
+## 🛠️ Technologies & Tools Used
+
+### Frontend Technologies
+- **React.js**  
+  Used to build the user interface using reusable and modular components.
+
+- **JavaScript (ES6+)**  
+  Used for application logic, API calls, state handling, and dynamic rendering.
+
+- **HTML5**  
+  Used to structure the web application.
+
+- **CSS Modules**  
+  Used for scoped and maintainable styling, preventing global CSS conflicts.
+
+---
+
+### React Concepts Utilized
+- **useState** – Manages component state such as search queries, recipe data, and animations  
+- **useEffect** – Handles API calls, side effects, and timed animations  
+- **Conditional Rendering** – Displays loading states, errors, and data dynamically  
+
+---
+
+### API Integration
+- **Spoonacular Food API**  
+  Used to fetch real-time recipe data including recipe lists, ingredients, instructions, and pricing information.
+
+---
+
+### Development Tools
+- **Create React App** – Project scaffolding and build setup  
+- **npm** – Dependency management  
+- **Git & GitHub** – Version control and source code hosting  
+- **Visual Studio Code** – Code editor used for development  
+
+---
+
+## 🧠 How the Application Works
+
+1. The user enters a recipe name in the search bar.
+2. The application sends a request to the external food recipe API.
+3. Matching recipes are displayed dynamically.
+4. Selecting a recipe shows detailed cooking information.
+5. The interface updates instantly without refreshing the page.
+
+---
+
+## 📦 Project Type
+
+- **Single Page Web Application (SPA)**
+
+---
+
+## 🎯 Use Cases
+
+- Discover new food recipes
+- Learn cooking steps and ingredients easily
+- Plan meals efficiently
+- Demonstrate modern React and frontend development skills
+
+---
+
+## 📌 Future Enhancements
+
+- User authentication and favorite recipes
+- Advanced filtering (diet, calories, cuisine)
+- Pagination and caching for better performance
+- Progressive Web App (PWA) support
+- Mobile version using React Native
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
