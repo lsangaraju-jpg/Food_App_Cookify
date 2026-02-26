@@ -23,7 +23,7 @@ Cookify is built as a **Single Page Application (SPA)** using React and demonstr
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## 🛠️ Technologies & Tools Used:
 
 ### Frontend Technologies
 - **React.js**  
