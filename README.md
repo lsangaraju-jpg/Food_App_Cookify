@@ -14,7 +14,7 @@ Cookify is built as a **Single Page Application (SPA)** using React and demonstr
   - Cooking instructions
   - Preparation time
   - Vegetarian / Vegan / Non-Vegetarian classification
-  - Cost per serving
+  - Populates Cost per serving
 - Smooth single-page experience without page reloads
 - Animated navigation bar with rotating food GIFs
 - Animated application title for branding
@@ -36,7 +36,7 @@ Cookify is built as a **Single Page Application (SPA)** using React and demonstr
   Used to structure the web application.
 
 - **CSS Modules**  
-  Used for scoped and maintainable styling, preventing global CSS conflicts.
+  Used for scoped and maintainable styling and preventing global CSS conflicts.
 
 ---
 
@@ -49,7 +49,7 @@ Cookify is built as a **Single Page Application (SPA)** using React and demonstr
 
 ### API Integration
 - **Spoonacular Food API**  
-  Used to fetch real-time recipe data including recipe lists, ingredients, instructions, and pricing information.
+  Used to fetch real-time recipe data, including recipe lists, ingredients, instructions, and pricing information.
 
 ---
 
